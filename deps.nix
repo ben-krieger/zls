@@ -4,23 +4,30 @@
 
 linkFarm "zig-packages" [
   {
+    name = "N-V-__8AAOncKwEm1F9c5LrT7HMNmRMYX8-fAoqpc6YyTu9X";
+    path = fetchzip {
+      url = "https://codeload.github.com/wolfpld/tracy/tar.gz/refs/tags/v0.13.1";
+      hash = "sha256-D4aQ5kSfWH9qEUaithR0W/E5pN5on0n9YoBHeMggMSE=";
+    };
+  }
+  {
     name = "diffz-0.0.1-G2tlIYrNAQAQx3cuIp7EVs0xvxbv9DCPf4YuHmvubsrZ";
     path = fetchzip {
-      url = "https://github.com/ziglibs/diffz/archive/aa11caef328a3f20f2493f8fd676a1dfa7819246.tar.gz";
+      url = "https://codeload.github.com/ziglibs/diffz/tar.gz/aa11caef328a3f20f2493f8fd676a1dfa7819246";
       hash = "sha256-bdL+xLnYVzYS6T3zsw7xfLKTUCUFI0pIpQaOxV6oTis=";
     };
   }
   {
     name = "known_folders-0.0.0-Fy-PJqHJAAB43zDJmOdlr3nViu69IFI9pNFt7hkHjKk4";
     path = fetchzip {
-      url = "https://github.com/ziglibs/known-folders/archive/82027007c0eb199a3242c167a5cffd83b6ee571b.tar.gz";
+      url = "https://codeload.github.com/ziglibs/known-folders/tar.gz/82027007c0eb199a3242c167a5cffd83b6ee571b";
       hash = "sha256-roSjTIJae5d2MoAmsTV2f0Ze+r5EXijgy7i1nTa0/nk=";
     };
   }
   {
     name = "lsp_kit-0.1.0-bi_PLw8zDABvCWe2rD4Aqb9gx0sRXBKO0a7M0vg3AbR3";
     path = fetchzip {
-      url = "https://github.com/zigtools/lsp-kit/archive/7b03f0b6801babffe76608cf3db59793902a21d6.tar.gz";
+      url = "https://codeload.github.com/zigtools/lsp-kit/tar.gz/7b03f0b6801babffe76608cf3db59793902a21d6";
       hash = "sha256-CjWrp8fERKS5VldRvYtDFk1g4heIkX4YrpLw/eC12Q4=";
     };
   }
